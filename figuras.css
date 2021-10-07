@@ -8,3 +8,25 @@
 body{
 	background-color: peachpuff;
 }
+
+header{
+	text-align: center;
+	margin: 30px;
+}
+
+.main-container{
+	display: grid;
+	grid-template-columns: repeat(auto-fill, 240px);
+	gap: 24px;
+	place-content: center;
+	align-items:baseline;
+}
+
+section{
+	width: 240px;
+	height: auto;
+	padding: 10px;
+	border: 5px solid burlywood;
+	border-radius: 10px;
+	text-align: center;
+}
