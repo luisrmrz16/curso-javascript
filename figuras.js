@@ -101,7 +101,7 @@ function calcularPerimetroTriangulo(){
 			break;
 	}
 
-	alert("El perímetro de este rectangulo es: " + perimetro + "cm");
+	alert("El perímetro de este triangulo es: " + perimetro + "cm");
 }
 
 function calcularAreaTriangulo(){
@@ -110,7 +110,21 @@ function calcularAreaTriangulo(){
 	const base = parseFloat(b.value);
 	const alto = parseFloat(a.value);
 	const area = areaTriangulo(base, alto);
-	alert("El perímetro de este rectangulo es: " + area + "cm²");
+	alert("El perímetro de este triangulo es: " + area + "cm²");
+}
+
+function calcularPerimetroCirculo(){
+	const input = document.getElementById("radio-circulo");
+	const value = parseFloat(input.value);
+	const perimetro = perimetroCirculo(value);
+	alert("El perímetro de este circulo es: " + parseFloat(perimetro).toFixed(2) + "cm");
+}
+
+function calcularAreaCirculo(){
+	const input = document.getElementById("radio-circulo");
+	const value = parseFloat(input.value);
+	const area = areaCirculo(value);
+	alert("El área de este circulo es: " + parseFloat(area).toFixed(2) + "cm²");
 }
 
 //MOSTRAR INPUT CUANDO CAMBIA EL TIPO DE TRIANGULO XD
