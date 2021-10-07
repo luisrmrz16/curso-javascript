@@ -4,7 +4,7 @@ Repositorio para guardar el proyecto trabajado en el curso de [@Platzi](https://
 
 ### Taller 1: Figuras geométricas.
 
-[**Enlace**](https://luisrmrz16.github.io/curso-javascript/figuras.html)
+[**Enlace**](https://luisrmrz16.github.io/curso-javascript/taller%201/figuras.html)
 
 ### Taller 2: Precios y descuentos.
 
