@@ -37,6 +37,51 @@
 			<button type="button" onclick="calcularAreaRectangulo()">Calcular el área</button>
 		</form>
 	</section>
+
+	<section>
+		<h2>Calcula el perímetro y área de un triangulo</h2>
+		<form action="">	
+			<div>
+				<h4>Tipo de triangulo</h4>
+				<select id="tipo-triangulo" class="tipo-triangulo" name="tipo-triangulo">
+					<option value="triangulo-equilatero">Triangulo equilatero</option>
+					<option value="triangulo-isosceles">Triangulo isosceles</option>
+					<option value="triangulo-escaleno" selected>Triangulo escaleno</option>
+				  </select>
+			</div>
+			<div>
+				<div class="lados-triangulo">
+					<label for="lado-triangulo">Escribe la medida del lado/lados de tu triangulo:</label>
+					<input id="lado-triangulo-a" type="number">
+					<input id="lado-triangulo-b" type="number">
+					<input id="lado-triangulo-c" type="number">
+				</div>
+				<div>
+					<label for="alto-triangulo">Escribe la medida del alto de tu triangulo:</label>
+					<input id="alto-triangulo" type="number">
+					<label for="base-triangulo">Escribe la medida de la base de tu triangulo:</label>
+					<input id="base-triangulo" type="number">
+				</div>
+				<div>
+					<button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+					<button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>
+				</div>
+			</div>
+		</form>
+	</section>
+
+	<section>
+		<h2>Calcula el perímetro y área de un circulo</h2>
+		<form action="">
+			<label for="lado-circulo">Escribe la medida del lado de tu circulo:</label>
+			<input id="lado-circulo" type="number">
+			<label for="ancho-circulo">Escribe la medida del ancho de tu circulo:</label>
+			<input id="ancho-circulo" type="number">
+			<button type="button" onclick="calcularPerimetroCirculo()">Calcular el perímetro</button>
+			<button type="button" onclick="calcularAreaCirculo()">Calcular el área</button>
+		</form>
+	</section>
+
 	<script src="./figuras.js"></script>
 </body>
 </html>
