@@ -18,3 +18,13 @@ function priceDiscount(){
 	const finalHTML = document.getElementById("FinalPrice");
 	finalHTML.innerText = "El precio final con descuento es $" + finalPrice;
 }
+
+function descuentoCupon(cupon){
+	const cupones = [16, 22, 1999, 4];
+	if (cupones.includes(cupon)){
+		console.log("Cupón valido.");
+	}
+	else{
+		console.log("Cupón no valido.");
+	}
+}
